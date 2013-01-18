@@ -1,5 +1,5 @@
 fundamental:
-	sudo yum install emacs git tmux ruby rubygems make
+	sudo yum install emacs git tmux ruby ruby-devel rubygems make
 
 node:
 	sudo yum install wget git gcc-c++ openssl-devel
@@ -8,4 +8,4 @@ node:
 	@echo source ~/.nvm/nvm.sh
 
 gems:
-	gem install padrino
+	sudo gem install padrino
